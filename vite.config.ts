@@ -21,5 +21,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/girish-portfolio/'
+  base: '/' // Since this will be the base directory
 }));
